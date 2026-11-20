@@ -1,5 +1,7 @@
 # Distribution+
 
+[![Support on Ko-fi](https://raw.githubusercontent.com/KingdomIncModding/.github/main/assets/kofi-button.png)](https://ko-fi.com/urakkaamyx/tip)
+
 Removes the 4-slot cap on **Collectors**, **Distributors**, and **Manifolds** so you can expand any junction to as many slots as your factory needs.
 
 ## Features
@@ -44,3 +46,7 @@ Distribution+ integrates with Kingdom Inc exclusively through **Foundation** gam
 | WorldFlowGhost.SetElement | Foundation After Hook | Scales blueprint copy ghosts to match the full height of expanded junctions. |
 | WorldFlowManager.ShowFlow | Foundation After Hook | Syncs junction controls when switching between workspaces. |
 | WorldFlowPipe.SetFlowPipe | Foundation After Hook | Updates collapse button availability as pipes connect to junction ports. |
+
+## Support
+
+If you enjoy these Kingdom Inc mods and tools, consider supporting development on [**Ko-fi**](https://ko-fi.com/urakkaamyx/tip)!
