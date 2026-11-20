@@ -1,0 +1,69 @@
+{
+  "id": "urakka.kingdominc.distributionplus",
+  "name": "Distribution+",
+  "version": "0.1.0",
+  "author": "Urakka",
+  "description": "For Kingdom Inc game version 1.0.14. Removes the 4-slot limit on Collectors, Distributors, and Manifolds so you can expand them to any number of slots, adds a dedicated vanilla-styled collapse button to shrink unused slots anytime, supports Shift+Click batch expansion, and scales blueprint copy ghosts to match tall junctions.",
+  "repository": {
+    "platform": "GitHub",
+    "owner": "KingdomIncModding",
+    "name": "DistributionPlus",
+    "url": "https://github.com/KingdomIncModding/DistributionPlus",
+    "branch": "main",
+    "visibility": "public",
+    "topics": [
+      "kingdom-inc",
+      "kingdom-inc-mod",
+      "bepinex",
+      "foundation",
+      "logistics",
+      "quality-of-life"
+    ],
+    "latestTag": null
+  },
+  "distribution": {
+    "nexus": {
+      "game": "kingdominc",
+      "modId": 32,
+      "fileId": null,
+      "url": "https://www.nexusmods.com/kingdominc/mods/32",
+      "requirements": [
+        {
+          "name": "Foundation",
+          "url": "https://www.nexusmods.com/kingdominc/mods/18",
+          "minimumVersion": "0.14.7",
+          "type": "nexus",
+          "fileId": 8358756
+        },
+        {
+          "name": "BepInEx 5",
+          "url": "https://github.com/BepInEx/BepInEx/releases",
+          "minimumVersion": "5.x",
+          "type": "offsite"
+        }
+      ],
+      "tags": [
+        "AI-Generated Content",
+        "AI Media",
+        "Quality of Life",
+        "Gameplay"
+      ],
+      "tagsVerified": false,
+      "requirementsVerified": false
+    }
+  },
+  "development": {
+    "framework": "Foundation",
+    "language": "C#",
+    "target": "netstandard2.1",
+    "dependencies": [
+      "BepInEx 5",
+      "Foundation 0.14.7"
+    ],
+    "gameIntegration": "Foundation"
+  },
+  "publishing": {
+    "githubReleases": null,
+    "nexusMods": "https://www.nexusmods.com/kingdominc/mods/32"
+  }
+}
